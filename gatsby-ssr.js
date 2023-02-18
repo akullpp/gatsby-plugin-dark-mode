@@ -1,9 +1,9 @@
-const React = require('react')
+const React = require("react");
 
-exports.onRenderBody = function({ setPreBodyComponents }) {
+exports.onRenderBody = function ({ setPreBodyComponents }) {
   setPreBodyComponents([
-    React.createElement('script', {
-      key: 'gatsby-plugin-dark-mode',
+    React.createElement("script", {
+      key: "gatsby-plugin-dark-mode",
       dangerouslySetInnerHTML: {
         __html: `
 void function() {
@@ -43,5 +43,5 @@ void function() {
     `,
       },
     }),
-  ])
-}
+  ]);
+};
