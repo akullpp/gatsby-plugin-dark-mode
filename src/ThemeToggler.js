@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 
 class ThemeToggler extends React.Component {
   state = {
-    theme: typeof window !== "undefined" ? window.__theme : null,
+    theme: null,
   };
 
   componentDidMount() {
+    this.setState({ theme: window.__theme });
     window.__onThemeChange = () => {
       this.setState({ theme: window.__theme });
     };

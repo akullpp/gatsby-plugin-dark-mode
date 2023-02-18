@@ -3,7 +3,7 @@ const React = require("react");
 exports.onRenderBody = function ({ setPreBodyComponents }) {
   setPreBodyComponents([
     React.createElement("script", {
-      key: "gatsby-plugin-dark-mode",
+      key: "gatsby-plugin-dark-mode-continued",
       dangerouslySetInnerHTML: {
         __html: `
 void function() {

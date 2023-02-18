@@ -1,4 +1,4 @@
-# gatsby-plugin-dark-mode
+# gatsby-plugin-dark-mode-continued
 
 A Gatsby plugin which handles some of the details of implementing a dark mode theme.
 
@@ -11,14 +11,14 @@ It provides:
 ## Install
 
 ```sh
-npm install gatsby-plugin-dark-mode
+npm install gatsby-plugin-dark-mode-continued
 ```
 
 ```js
 // gatsby-config.js
 
 module.exports = {
-  plugins: ['gatsby-plugin-dark-mode'],
+  plugins: ['gatsby-plugin-dark-mode-continued'],
 }
 ```
 
@@ -32,7 +32,7 @@ Here's an example of using `ThemeToggler` with a checkbox to toggle the theme:
 
 ```jsx
 import React from 'react'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import { ThemeToggler } from 'gatsby-plugin-dark-mode-continued'
 
 class MyComponent extends React.Component {
   render() {
